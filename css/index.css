@@ -274,7 +274,7 @@ footer nav a {
 
 }
 
-.top-container-about .directory{
+.top-container-about .directory1 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     height: 10rem;
@@ -287,20 +287,20 @@ footer nav a {
     margin-top: 2rem;
     margin-bottom: 2rem;
     
-    /* padding-right: 30rem; */
-    display: flex;
+     /* padding-right: 30rem;  */
+    /* display: flex; */
     height: 10rem;
     width: 50rem;
-    justify-content: left;
+    /* justify-content: center; */
+    padding-right: 10rem;
     
-    
-   
+  
 }
 
 .about-text{
     text-align: left;
     padding-left:5rem;
-    
+    padding-right: 8rem;
     
 }
 
