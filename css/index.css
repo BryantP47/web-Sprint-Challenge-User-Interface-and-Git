@@ -47,13 +47,58 @@ table {
 	border-spacing: 0;
 }
 
+/* Css Reset Above */
+
+/* below is Site */
 * {
     box-sizing: border-box;
 }
 
+ .top-container {
+    width: 100%;
+    margin: 2rem auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+   align-items: baseline;
+ 
+   /* gap: 1rem; */
+   
+    
+}
+
+.top-container h1{
+     display: flex; 
+    align-items: flex-start;
+    font-size: 3em;
+
+ }
+  .n {
+    /* color: tomato; */
+    padding-right: 2rem;
+     
+   
+
+     
+}  
+
+.head-pic img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 10rem;
+    width:49rem;
+    /* padding-right: 30rem; */
+    justify-self: flex-start;
+
+}
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -111,6 +156,42 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+  .middle-content .boxes .b1 {  
+     background: teal;
+
+}
+    .middle-content .boxes .b2 {
+        background: gold;
+}
+
+    .middle-content .boxes .b3 {
+        background: cadetblue;
+}
+    .middle-content .boxes .b4 {
+        background: coral;
+}
+    .middle-content .boxes .b5 {
+        background: crimson;
+}
+    .middle-content .boxes .b6 {
+        background: forestgreen;
+}
+    .middle-content .boxes .b7 {
+        background: darkorchid;
+}
+    .middle-content .boxes .b8 {
+        background: hotpink;
+}
+    .middle-content .boxes .b9 {
+        background: indigo;
+}
+    .middle-content .boxes .b10 {
+        background: dodgerblue;
+}
+
+
+
 
 .bottom-content {
     display: flex;
