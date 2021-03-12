@@ -98,7 +98,8 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 8rem;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -224,4 +225,96 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about page CSS */
+
+.top-container-about {
+    width: 100%;
+    margin: 2rem auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+   align-items: baseline;
+ 
+   /* gap: 1rem; */
+   
+}
+.top-container-about h1{
+    padding-left: 1rem;
+    font-size: 1rem;
+    
+}
+.top-container-about .n{
+ padding-left: 4rem;
+}
+
+.head-pic-about img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 10rem;
+    width:100rem ;
+    padding-right: 50rem;
+    
+    /* justify-self: flex-start; */
+}
+
+.about-text{
+    text-align: left;
+    padding-left:5rem;
+    padding-right:30rem
+    
+}
+
+ /* .boxes-about{
+    /* display: grid;
+ flex-wrap: wrap;
+     */
+   /* justify-content: space-around;
+  text-align: center; */
+   /* display: grid;
+flex-flow: row wrap;
+padding-left:20rem;
+padding-right: 30rem; */
+/* }  */ 
+
+.boxes-about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: 3rem;
+    line-height: 3rem;
+    align-items: baseline;
+    margin: 2rem;
+}
+
+.learn-boxes{
+    flex: 1;
+   
+}
+
+
+.boxes-about p{
+    color:tomato;
+    /* text-align: center; */
+    /* padding-right:1rem */
+}
+/* .boxes-about .learn-boxes{
+    flex-flow: row wrap;
+
+} */
+
+button {
+  justify-content: baseline;
+}
+
+.work {
+    text-align: left;
+    padding-left:5rem;
+    padding-right:20rem;
+    margin-bottom: 2rem;
+   
 }
